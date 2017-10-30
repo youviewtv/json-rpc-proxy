@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		442C7D231F9614BD00ADA24E /* BallSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 442C7D221F9614BD00ADA24E /* BallSelectionView.swift */; };
+		442C7D291F965EB700ADA24E /* RandomService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 442C7D281F965EB700ADA24E /* RandomService.swift */; };
+		449A11871F9520FC0083DFED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 449A11861F9520FC0083DFED /* AppDelegate.swift */; };
+		449A11891F9520FC0083DFED /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 449A11881F9520FC0083DFED /* ViewController.swift */; };
+		449A118C1F9520FC0083DFED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 449A118A1F9520FC0083DFED /* Main.storyboard */; };
+		449A118E1F9520FC0083DFED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 449A118D1F9520FC0083DFED /* Assets.xcassets */; };
+		449A11911F9520FC0083DFED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 449A118F1F9520FC0083DFED /* LaunchScreen.storyboard */; };
+		449A11C01F9523970083DFED /* BallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 449A11BF1F9523970083DFED /* BallView.swift */; };
+		449A11C21F9525420083DFED /* UIColor+RandomLottery.swift in Sources */ = {isa = PBXBuildFile; fileRef = 449A11C11F9525420083DFED /* UIColor+RandomLottery.swift */; };
+		52403365FBBCFEE845CBC9A0 /* Pods_RandomLottery.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 629AB52E3DD41C8C1C176740 /* Pods_RandomLottery.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		01FAF20E7AF8BDD059C6138F /* Pods-RandomLottery.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RandomLottery.release.xcconfig"; path = "Pods/Target Support Files/Pods-RandomLottery/Pods-RandomLottery.release.xcconfig"; sourceTree = "<group>"; };
+		442C7D221F9614BD00ADA24E /* BallSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BallSelectionView.swift; sourceTree = "<group>"; };
+		442C7D271F965C9600ADA24E /* RandomLottery-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RandomLottery-Bridging-Header.h"; sourceTree = "<group>"; };
+		442C7D281F965EB700ADA24E /* RandomService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomService.swift; sourceTree = "<group>"; };
+		449A11831F9520FC0083DFED /* RandomLottery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RandomLottery.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		449A11861F9520FC0083DFED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		449A11881F9520FC0083DFED /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		449A118B1F9520FC0083DFED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		449A118D1F9520FC0083DFED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		449A11901F9520FC0083DFED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		449A11921F9520FC0083DFED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		449A11BF1F9523970083DFED /* BallView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BallView.swift; sourceTree = "<group>"; };
+		449A11C11F9525420083DFED /* UIColor+RandomLottery.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+RandomLottery.swift"; sourceTree = "<group>"; };
+		629AB52E3DD41C8C1C176740 /* Pods_RandomLottery.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RandomLottery.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0D40EE7E7AA20D4DB7A993E /* Pods-RandomLottery.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RandomLottery.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RandomLottery/Pods-RandomLottery.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		449A11801F9520FC0083DFED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52403365FBBCFEE845CBC9A0 /* Pods_RandomLottery.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0C732561CC495BC4ACA3B8B6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				629AB52E3DD41C8C1C176740 /* Pods_RandomLottery.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		449A117A1F9520FC0083DFED = {
+			isa = PBXGroup;
+			children = (
+				449A11851F9520FC0083DFED /* RandomLottery */,
+				449A11841F9520FC0083DFED /* Products */,
+				CCC1FC944C8368E051713062 /* Pods */,
+				0C732561CC495BC4ACA3B8B6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		449A11841F9520FC0083DFED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				449A11831F9520FC0083DFED /* RandomLottery.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		449A11851F9520FC0083DFED /* RandomLottery */ = {
+			isa = PBXGroup;
+			children = (
+				449A11861F9520FC0083DFED /* AppDelegate.swift */,
+				449A11881F9520FC0083DFED /* ViewController.swift */,
+				449A11BF1F9523970083DFED /* BallView.swift */,
+				442C7D221F9614BD00ADA24E /* BallSelectionView.swift */,
+				442C7D281F965EB700ADA24E /* RandomService.swift */,
+				449A11C11F9525420083DFED /* UIColor+RandomLottery.swift */,
+				442C7D271F965C9600ADA24E /* RandomLottery-Bridging-Header.h */,
+				449A118A1F9520FC0083DFED /* Main.storyboard */,
+				449A118D1F9520FC0083DFED /* Assets.xcassets */,
+				449A118F1F9520FC0083DFED /* LaunchScreen.storyboard */,
+				449A11921F9520FC0083DFED /* Info.plist */,
+			);
+			path = RandomLottery;
+			sourceTree = "<group>";
+		};
+		CCC1FC944C8368E051713062 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E0D40EE7E7AA20D4DB7A993E /* Pods-RandomLottery.debug.xcconfig */,
+				01FAF20E7AF8BDD059C6138F /* Pods-RandomLottery.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		449A11821F9520FC0083DFED /* RandomLottery */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 449A11951F9520FC0083DFED /* Build configuration list for PBXNativeTarget "RandomLottery" */;
+			buildPhases = (
+				B1B48353274F764FADCBC46D /* [CP] Check Pods Manifest.lock */,
+				449A117F1F9520FC0083DFED /* Sources */,
+				449A11801F9520FC0083DFED /* Frameworks */,
+				449A11811F9520FC0083DFED /* Resources */,
+				3971582ADF7AFF625F09DBB0 /* [CP] Embed Pods Frameworks */,
+				96E6E2642F6C75BFD00C0694 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RandomLottery;
+			productName = RandomLottery;
+			productReference = 449A11831F9520FC0083DFED /* RandomLottery.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		449A117B1F9520FC0083DFED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = YouView;
+				TargetAttributes = {
+					449A11821F9520FC0083DFED = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 449A117E1F9520FC0083DFED /* Build configuration list for PBXProject "RandomLottery" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 449A117A1F9520FC0083DFED;
+			productRefGroup = 449A11841F9520FC0083DFED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				449A11821F9520FC0083DFED /* RandomLottery */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		449A11811F9520FC0083DFED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				449A11911F9520FC0083DFED /* LaunchScreen.storyboard in Resources */,
+				449A118E1F9520FC0083DFED /* Assets.xcassets in Resources */,
+				449A118C1F9520FC0083DFED /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3971582ADF7AFF625F09DBB0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RandomLottery/Pods-RandomLottery-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		96E6E2642F6C75BFD00C0694 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RandomLottery/Pods-RandomLottery-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B1B48353274F764FADCBC46D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		449A117F1F9520FC0083DFED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				449A11891F9520FC0083DFED /* ViewController.swift in Sources */,
+				449A11C21F9525420083DFED /* UIColor+RandomLottery.swift in Sources */,
+				449A11C01F9523970083DFED /* BallView.swift in Sources */,
+				442C7D291F965EB700ADA24E /* RandomService.swift in Sources */,
+				442C7D231F9614BD00ADA24E /* BallSelectionView.swift in Sources */,
+				449A11871F9520FC0083DFED /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		449A118A1F9520FC0083DFED /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				449A118B1F9520FC0083DFED /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		449A118F1F9520FC0083DFED /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				449A11901F9520FC0083DFED /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		449A11931F9520FC0083DFED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		449A11941F9520FC0083DFED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		449A11961F9520FC0083DFED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E0D40EE7E7AA20D4DB7A993E /* Pods-RandomLottery.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A5AUW84ES3;
+				INFOPLIST_FILE = RandomLottery/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tv.youview.RandomLottery;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$SRCROOT/RandomLottery/RandomLottery-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		449A11971F9520FC0083DFED /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 01FAF20E7AF8BDD059C6138F /* Pods-RandomLottery.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A5AUW84ES3;
+				INFOPLIST_FILE = RandomLottery/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tv.youview.RandomLottery;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$SRCROOT/RandomLottery/RandomLottery-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		449A117E1F9520FC0083DFED /* Build configuration list for PBXProject "RandomLottery" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				449A11931F9520FC0083DFED /* Debug */,
+				449A11941F9520FC0083DFED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		449A11951F9520FC0083DFED /* Build configuration list for PBXNativeTarget "RandomLottery" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				449A11961F9520FC0083DFED /* Debug */,
+				449A11971F9520FC0083DFED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 449A117B1F9520FC0083DFED /* Project object */;
+}

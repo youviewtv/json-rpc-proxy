@@ -1,0 +1,16 @@
+PODS:
+  - JRPCProxy (1.0.0)
+
+DEPENDENCIES:
+  - JRPCProxy (from `../../`)
+
+EXTERNAL SOURCES:
+  JRPCProxy:
+    :path: "../../"
+
+SPEC CHECKSUMS:
+  JRPCProxy: 5090dc080a67c8c0371d7edeab9060b7d9981239
+
+PODFILE CHECKSUM: f700e97166fe18d18d473a566f8d287c67e3c03b
+
+COCOAPODS: 1.2.1

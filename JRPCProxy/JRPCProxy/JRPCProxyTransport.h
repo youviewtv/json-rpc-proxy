@@ -52,7 +52,7 @@ typedef void (^JRPCTransportObjectCompletion)(NSDictionary * __nullable jsonResp
  @discussion The transport is expected to implement ONE of these methods only, depending on whether it wishes to perform the JSON<->NSData serialiazation itself, or leave it up to the proxy. e.g.
  If the transport is HTTP you may prefer to use raw data since the request/response can easily be matched without knowledge of the payload request id
  Alternativeley, for a WebSocket, you may prefer to perform the serialization in the transport in order to match the id between request & response objects
- If NEITHER method is implemnented an exception will occur.
+ If NEITHER method is implemented an exception will occur.
  If BOTH methods are implemented, the proxy will prefer to delegate serialization duties to the transport
  */
 @protocol JRPCProxyTransport <NSObject>

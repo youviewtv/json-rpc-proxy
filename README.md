@@ -124,7 +124,7 @@ let transport = MyJSONRPCTransport()
 // - create the proxy
 let proxy = JRPCAbstractProxy.proxy(for: MyProxiedProtocol.self, paramStructure: .byName, transport: transport) as AnyObject
 // - invoke methods
-proxy.addIntegers(firstValue: 10, secondValue: 32, completion: { (newNumbers, error) in
+proxy.addIntegers(firstValue: 10, secondValue: 32, completion: { (result, error) in
     // ...
 })
 ```

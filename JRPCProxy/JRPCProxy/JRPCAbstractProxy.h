@@ -90,7 +90,7 @@ typedef NS_ENUM(NSUInteger, JRPCParameterStructure)  {
  */
 @property(nonatomic, strong, nullable) dispatch_queue_t rpcCompletionQueue;
 
-/** init is unavialable */
+/** init is unavailable */
 - (instancetype) init __attribute__((unavailable("init is not available, use proxyForProtocol:transport: class method")));
 
 NS_ASSUME_NONNULL_END
